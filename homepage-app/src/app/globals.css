@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+body {
+  background: url('/background-dark.jpg'); /* Background picture by Simon Petereit (source: pexels.com) */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
